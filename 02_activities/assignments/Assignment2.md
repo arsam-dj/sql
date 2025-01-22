@@ -50,8 +50,7 @@ We want to create employee shifts, splitting up the day into morning and evening
 
 The image below is a response to prompts 1 and 2. All six tables are shown, with possible columns and how these columns might
 connect to each other. Morning/Evening shifts can be specified in the 'date' table under column 'shift_period'.
-<img src="./images/01_farmers_market_logical_model_partial.png" width="500">
-
+<img src="./images/assig2-model.png" width="500">
 
 #### Prompt 3
 The store wants to keep customer addresses. Propose two architectures for the CUSTOMER_ADDRESS table, one that will retain changes, and another that will overwrite. Which is type 1, which is type 2? 
