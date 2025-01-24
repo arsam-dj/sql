@@ -14,8 +14,8 @@
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-one`.
-- [ ] Ensure that the repository is public.
+- [X] Create a branch called `assignment-one`.
+- [X] Ensure that the repository is public.
 - [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
 - [ ] Verify that the link is accessible in a private browser window.
 
@@ -106,6 +106,11 @@ Please do not pick the exact same tables that I have already diagrammed. For exa
 	- <img src="./images/01_farmers_market_conceptual_model.png" width="600">
 - The column names can be found in a few spots (DB Schema window in the bottom right, the Database Structure tab in the main window by expanding each table entry, at the top of the Browse Data tab in the main window)
 
+I have chosen to link the tables market_date_info with vendor_inventory. They can be connected on the market_date column which
+has a 1-to-many relationship between market_date_info and vendor_inventory. This column is the respective primary key and 
+foreign key for these tables.
+
+<img src="./images/assig1-model.png" width=500>
 ***
 
 ## Section 2:
@@ -204,6 +209,7 @@ Link if you encounter a paywall: https://web.archive.org/web/20240422105834/http
 Consider, for example, concepts of fariness, inequality, social structures, marginalization, intersection of technology and society, etc.
 
 
-```
-Your thoughts...
-```
+I transitioned so I had to update my records (name and gender) in a lot of different places. This included records from school, banking/financials, provincial IDs, federal documents, and healthcare (OHIP). For a period of time I was at ease and never really thought about whether any of these institutions keep records ('snapshots') prior to when I changed my information. However, with recent anti-trans sentiments, particularly in the US, I have begun thinking about whether my trans status could be uncovered through any of these databases. Thomas mentioned keeping 'snapshots' when working at one of his previous positions, so now I am wondering how common of a practice this is. If a group of individuals are truly determined to  get a list of all citizens who have changed their gender, how feasible or easy would it be? Do these databases also record  instances of when a value has been changed?
+
+I am not really worried about rollbacking of transgender rights and freedoms in Canada yet, but I have been following this  issue in the US and right after Trump's inauguration, this was posted on the White House website: https://www.whitehouse.gov/presidential-actions/2025/01/defending-women-from-gender-ideology-extremism-and-restoring-biological-truth-to-the-federal-government/ 
+There have been several discussions in trans spaces about whether it is too late to update gender markers on federal documents  such as passports and whether any updated documents could be rolled back to reflect biological sex. This was a catalyst for making me consider how truly protected old records are. With improving data collection methods, handling, and storage, we have had multiple innovations in scientific fields and streamlined bureaucracy. On the flip side, true privacy is all but gone; it is next to impossible to live 'off-grid' in the digital sense. This has been the norm for younger generations including mine, but sometime reality gives a stark reminder that this level of obsession with collecting, storing, and backing up data is actually not the norm and should not be normalized. 
