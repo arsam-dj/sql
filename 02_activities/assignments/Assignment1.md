@@ -106,7 +106,7 @@ Please do not pick the exact same tables that I have already diagrammed. For exa
 	- <img src="./images/01_farmers_market_conceptual_model.png" width="600">
 - The column names can be found in a few spots (DB Schema window in the bottom right, the Database Structure tab in the main window by expanding each table entry, at the top of the Browse Data tab in the main window)
 
-I have chosen to link the tables market_date_info with vendor_inventory. The can be connected on the market_date column which
+I have chosen to link the tables market_date_info with vendor_inventory. They can be connected on the market_date column which
 has a 1-to-many relationship between market_date_info and vendor_inventory. This column is the respective primary key and 
 foreign key for these tables.
 
@@ -209,21 +209,7 @@ Link if you encounter a paywall: https://web.archive.org/web/20240422105834/http
 Consider, for example, concepts of fariness, inequality, social structures, marginalization, intersection of technology and society, etc.
 
 
-```
-I transitioned so I had to update my records (name and gender) in a lot of different places. This included records from 
-school, banking/financials, provincial IDs, federal documents, and healthcare (OHIP). For a period of time I was at ease
-and never really thought about whether any of these institutions keep records ('snapshots') prior to when I changed
-my information. However, with recent anti-trans sentiments, particularly in the US, I have begun thinking about whether 
-my trans status could be uncovered through any of these databases. Thomas mentioned keeping 'snapshots' when working at one
-of his previous positions, so now I am wondering how common of a practice this is. If a group of individuals are truly determined to 
-get a list of all citizens who have changed their gender, how feasible or easy would it be? Do these databases also record 
-instances of when a value has been changed?
+I transitioned so I had to update my records (name and gender) in a lot of different places. This included records from school, banking/financials, provincial IDs, federal documents, and healthcare (OHIP). For a period of time I was at ease and never really thought about whether any of these institutions keep records ('snapshots') prior to when I changed my information. However, with recent anti-trans sentiments, particularly in the US, I have begun thinking about whether my trans status could be uncovered through any of these databases. Thomas mentioned keeping 'snapshots' when working at one of his previous positions, so now I am wondering how common of a practice this is. If a group of individuals are truly determined to  get a list of all citizens who have changed their gender, how feasible or easy would it be? Do these databases also record  instances of when a value has been changed?
 
-I am not really worried about rollbacking of transgender rights and freedoms in Canada yet, but I have been following this 
-issue in the US and right after Trump's inauguration, this was posted on the White House website: https://www.whitehouse.gov/presidential-actions/2025/01/defending-women-from-gender-ideology-extremism-and-restoring-biological-truth-to-the-federal-government/
-There have been several discussions in trans spaces about whether it is too late to update gender markers on federal documents 
-such as passports and whether any updated documents could be rolled back to reflect biological sex. This was a catalyst for 
-making me think about how truly protected old records are. I believe it is close to impossible to truly go off-grid and live 
-a private life in the digital age. Far too many people who you have never met and will never meet can get access to your 
-data. Databases have made a lot of things streamlined and efficient, but at major cost to security. 
-```
+I am not really worried about rollbacking of transgender rights and freedoms in Canada yet, but I have been following this  issue in the US and right after Trump's inauguration, this was posted on the White House website: https://www.whitehouse.gov/presidential-actions/2025/01/defending-women-from-gender-ideology-extremism-and-restoring-biological-truth-to-the-federal-government/ 
+There have been several discussions in trans spaces about whether it is too late to update gender markers on federal documents  such as passports and whether any updated documents could be rolled back to reflect biological sex. This was a catalyst for making me think about how truly protected old records are. I believe it is close to impossible to truly go off-grid and live a private life in the digital age. Far too many people who you have never met and will never meet can get access to your data. Databases have made a lot of things streamlined and efficient, but at major cost to security. 
