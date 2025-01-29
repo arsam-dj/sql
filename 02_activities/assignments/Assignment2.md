@@ -184,7 +184,14 @@ Read: Boykis, V. (2019, October 16). _Neural nets are just people all the way do
 
 Consider, for example, concepts of labour, bias, LLM proliferation, moderating content, intersection of technology and society, ect. 
 
+This article aims to shed light on workers from poorer countries frequently exploited by Western employers. This is not unheard of across multiple industries (fashion, mining, agriculture), but with many tech companies shifting their focus to AI, this has become yet another avenue of exploitation.
 
+Workers are recruited through crowd-sourcing methods to label a diverse array of content to be used as training datasets in AI models. Here, I would like to talk about automated content blockers that keep major social media platforms relatively sanitized. These are models trained on datasets containing sexually explicit content, violent imagery, and/or hate speech. Of course, humans are involved in the creation of these datasets; they are likely to be underpaid while subjecting themselves to a gradual erosion of their mental health. They are arguably doing cruicial work required to keep the internet functioning, but these tasks need to become highly regulated to include better compensation and access to mental healthcare, as well as have frequent check-ins with workers. I found [this article from Privacy International](https://privacyinternational.org/explainer/5357/humans-ai-loop-data-labelers-behind-some-most-powerful-llms-training-datasets) that delves into a lot of ethical issues surrounding AI companies. In particular, here is a passage from Kenyan workers describing the kind of content they have had to label:
+
+``` 
+They detail the grueling nature of their work, including 'label[ing] images and text to train generative AI tools like ChatGPT for OpenAI. Our work involves watching murder and beheadings, child abuse and rape, pornography and bestiality, often for more than 8 hours a day' for less than $2 an hour.
 ```
-Your thoughts...
-```
+
+In addition, here is [a second article from The Verge](https://www.theverge.com/2019/2/25/18229714/cognizant-facebook-content-moderator-interviews-trauma-working-conditions-arizona), delving into the work lives of content moderators. These employees were contracted by Facebook to sift through thousands of submitted content and were tasked with making snap decisions on whether they violated any of Facebook's policies. The company in question (Cognizant) claimed to provide mental health support and a variety of 'fun' workplace activities like yoga, but the reality was quite different. Interviewees described being frequently exposed to shock content while receiving low pay and working grueling shifts. Unsurprisingly, all of them reported having significantly poor mental health and severe anxiety.
+
+Perhaps it is the taboo nature surrounding such shock content and the general populace's aversion to openly discussing it, but it is surprising to me how little attention this side of tech has received in general. I would not have learned about much of what I wrote here without specifically searching for it. We all take automated content blockers for granted as without them, the internet would be a very different landscape. However, there needs to be more activism for these specific group of workers.
