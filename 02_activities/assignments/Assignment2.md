@@ -14,8 +14,8 @@
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-two`.
-- [ ] Ensure that the repository is public.
+- [X] Create a branch called `assignment-two`.
+- [X] Ensure that the repository is public.
 - [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
 - [ ] Verify that the link is accessible in a private browser window.
 
@@ -48,13 +48,19 @@ There are several tools online you can use, I'd recommend [Draw.io](https://www.
 #### Prompt 2
 We want to create employee shifts, splitting up the day into morning and evening. Add this to the ERD.
 
+The image below is a response to prompts 1 and 2. All six tables are shown, with possible columns and how these columns might
+connect to each other. Morning/Evening shifts can be specified in the 'date' table under column 'shift_period'.
+<img src="./images/assig2-model.png" width="500">
+
 #### Prompt 3
 The store wants to keep customer addresses. Propose two architectures for the CUSTOMER_ADDRESS table, one that will retain changes, and another that will overwrite. Which is type 1, which is type 2? 
 
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+Type 1 slowly changing dimension overwrites existing values and doesn't retain history. In terms of table architecture, there would be a customer_id column with unique values, as well as a customer_address column. A customer's address would be simply overwritten.
+
+Type 2 adds a new row while maintaining the previous row(s) for historical purposes. In the table, customer_id would no longer have unique values only. If a customer's address had changed, they would be found in the table multiple times. Ideally, there would also be a date_added column so one could easily obtain to most recent address on record for a given customer. 
 ```
 
 ***
@@ -180,7 +186,14 @@ Read: Boykis, V. (2019, October 16). _Neural nets are just people all the way do
 
 Consider, for example, concepts of labour, bias, LLM proliferation, moderating content, intersection of technology and society, ect. 
 
+This article aims to shed light on workers from poorer countries frequently exploited by Western employers. This is not unheard of across multiple industries (fashion, mining, agriculture), but with many tech companies shifting their focus to AI, this has become yet another avenue of exploitation.
 
+Workers are recruited through crowd-sourcing methods to label a diverse array of content to be used as training datasets in AI models. Here, I would like to talk about automated content blockers that keep major social media platforms relatively sanitized. These are models trained on datasets containing sexually explicit content, violent imagery, and/or hate speech. Of course, humans are involved in the creation of these datasets; they are likely to be underpaid while subjecting themselves to a gradual erosion of their mental health. They are arguably doing cruicial work required to keep the internet functioning, but these tasks need to become highly regulated to include better compensation and access to mental healthcare, as well as have frequent check-ins with workers. I found [this article from Privacy International](https://privacyinternational.org/explainer/5357/humans-ai-loop-data-labelers-behind-some-most-powerful-llms-training-datasets) that delves into a lot of ethical issues surrounding AI companies. In particular, here is a passage from Kenyan workers describing the kind of content they have had to label:
+
+``` 
+They detail the grueling nature of their work, including 'label[ing] images and text to train generative AI tools like ChatGPT for OpenAI. Our work involves watching murder and beheadings, child abuse and rape, pornography and bestiality, often for more than 8 hours a day' for less than $2 an hour.
 ```
-Your thoughts...
-```
+
+In addition, here is [a second article from The Verge](https://www.theverge.com/2019/2/25/18229714/cognizant-facebook-content-moderator-interviews-trauma-working-conditions-arizona), delving into the work lives of content moderators. These employees were contracted by Facebook to sift through thousands of submitted content and were tasked with making snap decisions on whether they violated any of Facebook's policies. The company in question (Cognizant) claimed to provide mental health support and a variety of 'fun' workplace activities like yoga, but the reality was quite different. Interviewees described being frequently exposed to shock content while receiving low pay and working grueling shifts. Unsurprisingly, all of them reported having significantly poor mental health and severe anxiety.
+
+Perhaps it is the taboo nature surrounding such shock content and the general populace's aversion to openly discussing it, but it is surprising to me how little attention this side of tech has received in general. I would not have learned about much of what I wrote here without specifically searching for it. We all take automated content blockers for granted as without them, the internet would be a very different landscape. However, there needs to be more activism for these specific group of workers.
