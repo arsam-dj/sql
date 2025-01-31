@@ -58,7 +58,9 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+Type 1 slowly changing dimension overwrites existing values and doesn't retain history. In terms of table architecture, there would be a customer_id column with unique values, as well as a customer_address column. A customer's address would be simply overwritten.
+
+Type 2 adds a new row while maintaining the previous row(s) for historical purposes. In the table, customer_id would no longer have unique values only. If a customer's address had changed, they would be found in the table multiple times. Ideally, there would also be a date_added column so one could easily obtain to most recent address on record for a given customer. 
 ```
 
 ***
